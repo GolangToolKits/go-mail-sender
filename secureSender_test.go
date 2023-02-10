@@ -41,7 +41,7 @@ func TestSecureSender_GetNew(t *testing.T) {
 
 func TestSecureSender_SendMail(t *testing.T) {
 	//ports 587 465 80
-	var fileName = "../mailGmail.json"
+	var fileName = "../mailYahoo.json"
 	var mm mailFile
 	file, err2 := ioutil.ReadFile(fileName)
 	if err2 == nil {
