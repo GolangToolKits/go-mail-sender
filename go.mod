@@ -1,6 +1,6 @@
 module github.com/GolangToolKits/go-mail-sender
 
-go 1.19
+go 1.20
 
 require github.com/go-mail/mail v2.3.1+incompatible
 
